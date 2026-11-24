@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 560" width="1260" height="560" font-family="Helvetica, Arial, sans-serif">
+<rect width="1260" height="560" rx="24" fill="#FBF8F3"/>
+<text x="60" y="78" font-size="34" font-weight="700" fill="#1D1D1F">Cialdini’s 7 principles of influence</text>
+<text x="60" y="112" font-size="19" fill="#55555A">The lever behind each one, for marketing and sales</text>
+<rect x="60" y="150" width="270" height="150" rx="16" fill="#FFFFFF" stroke="#E4DED4" stroke-width="2"/>
+<clipPath id="t1"><rect x="60" y="150" width="270" height="150" rx="16"/></clipPath>
+<rect x="60" y="150" width="10" height="150" fill="#E8553D" clip-path="url(#t1)"/>
+<circle cx="110" cy="198" r="22" fill="#E8553D"/>
+<text x="110" y="206" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="144" y="206" font-size="24" font-weight="700" fill="#1D1D1F">Reciprocity</text>
+<text x="90" y="262" font-size="20" fill="#3A3A3F">Give first</text>
+<rect x="350" y="150" width="270" height="150" rx="16" fill="#FFFFFF" stroke="#E4DED4" stroke-width="2"/>
+<clipPath id="t2"><rect x="350" y="150" width="270" height="150" rx="16"/></clipPath>
+<rect x="350" y="150" width="10" height="150" fill="#F08A24" clip-path="url(#t2)"/>
+<circle cx="400" cy="198" r="22" fill="#F08A24"/>
+<text x="400" y="206" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="434" y="206" font-size="24" font-weight="700" fill="#1D1D1F">Commitment</text>
+<text x="380" y="262" font-size="20" fill="#3A3A3F">Get a small yes</text>
+<rect x="640" y="150" width="270" height="150" rx="16" fill="#FFFFFF" stroke="#E4DED4" stroke-width="2"/>
+<clipPath id="t3"><rect x="640" y="150" width="270" height="150" rx="16"/></clipPath>
+<rect x="640" y="150" width="10" height="150" fill="#E9B520" clip-path="url(#t3)"/>
+<circle cx="690" cy="198" r="22" fill="#E9B520"/>
+<text x="690" y="206" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="724" y="206" font-size="24" font-weight="700" fill="#1D1D1F">Social proof</text>
+<text x="670" y="262" font-size="20" fill="#3A3A3F">Show people like them</text>
+<rect x="930" y="150" width="270" height="150" rx="16" fill="#FFFFFF" stroke="#E4DED4" stroke-width="2"/>
+<clipPath id="t4"><rect x="930" y="150" width="270" height="150" rx="16"/></clipPath>
+<rect x="930" y="150" width="10" height="150" fill="#2F9E6E" clip-path="url(#t4)"/>
+<circle cx="980" cy="198" r="22" fill="#2F9E6E"/>
+<text x="980" y="206" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="1014" y="206" font-size="24" font-weight="700" fill="#1D1D1F">Authority</text>
+<text x="960" y="262" font-size="20" fill="#3A3A3F">Show real expertise</text>
+<rect x="205" y="320" width="270" height="150" rx="16" fill="#FFFFFF" stroke="#E4DED4" stroke-width="2"/>
+<clipPath id="t5"><rect x="205" y="320" width="270" height="150" rx="16"/></clipPath>
+<rect x="205" y="320" width="10" height="150" fill="#2A7FB8" clip-path="url(#t5)"/>
+<circle cx="255" cy="368" r="22" fill="#2A7FB8"/>
+<text x="255" y="376" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="289" y="376" font-size="24" font-weight="700" fill="#1D1D1F">Liking</text>
+<text x="235" y="432" font-size="20" fill="#3A3A3F">Be likeable and similar</text>
+<rect x="495" y="320" width="270" height="150" rx="16" fill="#FFFFFF" stroke="#E4DED4" stroke-width="2"/>
+<clipPath id="t6"><rect x="495" y="320" width="270" height="150" rx="16"/></clipPath>
+<rect x="495" y="320" width="10" height="150" fill="#5B4FC4" clip-path="url(#t6)"/>
+<circle cx="545" cy="368" r="22" fill="#5B4FC4"/>
+<text x="545" y="376" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="579" y="376" font-size="24" font-weight="700" fill="#1D1D1F">Scarcity</text>
+<text x="525" y="432" font-size="20" fill="#3A3A3F">Show what they'll lose</text>
+<rect x="785" y="320" width="270" height="150" rx="16" fill="#FFFFFF" stroke="#E4DED4" stroke-width="2"/>
+<clipPath id="t7"><rect x="785" y="320" width="270" height="150" rx="16"/></clipPath>
+<rect x="785" y="320" width="10" height="150" fill="#B4407A" clip-path="url(#t7)"/>
+<circle cx="835" cy="368" r="22" fill="#B4407A"/>
+<text x="835" y="376" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">7</text>
+<text x="869" y="376" font-size="24" font-weight="700" fill="#1D1D1F">Unity</text>
+<text x="815" y="432" font-size="20" fill="#3A3A3F">Make it “we”</text>
+<text x="60" y="530" font-size="15" fill="#77777C">Principles: Robert Cialdini, Influence (1984; New and Expanded 2021) and Pre-Suasion (2016). Original diagram by George Pohl.</text>
+</svg>
