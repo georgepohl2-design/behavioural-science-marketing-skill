@@ -1,0 +1,16 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <!-- original magician's hat, rabbit and wand: bold flat shapes in the Influence palette -->
+  <path d="M25 33 C19 24 18 12 22.5 8.5 C27 6.5 30 18 30 32 Z" fill="#FFFFFF"/>
+  <path d="M25.4 29.5 C22.2 22.5 21.8 14.5 23.6 12 C25.6 11.2 27.8 19 28.2 29 Z" fill="#F7A08F"/>
+  <path d="M33 32 C33.5 21 36.5 13 41.5 13.5 C45 14.5 41 24 36.5 32.5 Z" fill="#FFFFFF"/>
+  <path d="M34.6 30 C35.5 23 38 17 40.6 16.8 C41.8 17.6 39 24 36 30.5 Z" fill="#F7A08F"/>
+  <path d="M17 36 L18.5 58.5 C26 62 38 62 45.5 58.5 L47 36 Z" fill="#1F2156"/>
+  <path d="M17.2 39.5 L46.8 39.5 L46.4 45 C38 47.2 26 47.2 17.6 45 Z" fill="#FDB913"/>
+  <ellipse cx="32" cy="35" rx="25" ry="6" fill="#2E3178"/>
+  <ellipse cx="32" cy="34.6" rx="14.5" ry="3.4" fill="#11122F"/>
+  <line x1="46.5" y1="30" x2="60" y2="9" stroke="#11122F" stroke-width="4.4" stroke-linecap="round"/>
+  <line x1="46.5" y1="30" x2="49" y2="26.1" stroke="#FFFFFF" stroke-width="4.4" stroke-linecap="round"/>
+  <path d="M9 15 L10.5 19.8 L15.3 21.3 L10.5 22.8 L9 27.6 L7.5 22.8 L2.7 21.3 L7.5 19.8 Z" fill="#FDB913"/>
+  <path d="M51 14 L51.8 16.4 L54.2 17.2 L51.8 18 L51 20.4 L50.2 18 L47.8 17.2 L50.2 16.4 Z" fill="#FDB913"/>
+  <path d="M16 4 L16.7 6.3 L19 7 L16.7 7.7 L16 10 L15.3 7.7 L13 7 L15.3 6.3 Z" fill="#FDB913"/>
+</svg>

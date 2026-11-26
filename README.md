@@ -50,6 +50,7 @@ cialdini-7-principles/
 │                            and the story bank
 ├── assets/
 │   ├── card-template.html   ← the "Think like Cialdini" card design
+│   ├── magic-hat.svg        ← the card's hat, rabbit and wand icon
 │   ├── cialdini-7-principles.svg
 │   └── influence-book-cover.jpg
 ├── references/           ← one file per principle: stories, evidence, famous

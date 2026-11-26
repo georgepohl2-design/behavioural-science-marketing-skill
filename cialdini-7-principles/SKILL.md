@@ -77,7 +77,7 @@ The signature move. The user says "think like Cialdini" and gives you some conte
 
    | Field | What goes in it | Length |
    |---|---|---|
-   | `CONTEXT` | Their situation, in their words | Max 12 words |
+   | `CONTEXT` | **Company name – the project or campaign**, e.g. "Acme – spring sale to lapsed customers". If they haven't named the company, use their product or "Your brand" | Max 12 words |
    | `NUMBER` | The principle's number, 1–7, from the table above | 1 digit |
    | `PRINCIPLE` | The principle's name | 1–2 words |
    | `LEVER` | The lever, as an instruction | Max 8 words |
@@ -101,8 +101,8 @@ The signature move. The user says "think like Cialdini" and gives you some conte
 
 ```
 🎩 THINK LIKE CIALDINI
-For: <CONTEXT>
-Cialdini's 7 principles: 1 Reciprocity · 2 Commitment · 3 Social proof · 4 Authority · 5 Liking · 6 Scarcity · 7 Unity
+For: <Company> – <project>
+Cialdini's 7 principles of influence: 1 Reciprocity · 2 Commitment · 3 Social proof · 4 Authority · 5 Liking · 6 Scarcity · 7 Unity
 
 ━━ <NUMBER>  <PRINCIPLE IN CAPITALS> ━━
 <LEVER>
