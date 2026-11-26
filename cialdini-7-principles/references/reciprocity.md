@@ -5,6 +5,8 @@
 ## Why it works
 Every human society runs on "you scratch my back, I'll scratch yours". Being in someone's debt feels uncomfortable, so we look for ways to even it up, often with something bigger than what we got.
 
+This is one of the strongest principles of all, because it doesn't feel like a choice. It feels like an **obligation**. You can hear it in language: in Portuguese, "thank you" is *obrigado* (or *obrigada*), which literally means "obliged". Saying thanks is admitting you owe someone. That's how deep reciprocity runs.
+
 Cialdini says the gift works best when it's:
 - **Significant.** It's worth something to them, not to you.
 - **Personalised.** It's clearly for *them*, not for everyone.

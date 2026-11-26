@@ -1,6 +1,6 @@
 ---
 name: cialdini-7-principles
-description: Robert Cialdini's 7 principles of influence (reciprocity, commitment and consistency, social proof, authority, liking, scarcity, unity) for marketing and sales. Use whenever someone says "think like Cialdini" (or "Cialdini this", "Cialdini card"), giving them a one-card answer with the single most relevant principle. Use for "Cialdini audit" and "Cialdini plan" too. Also use when someone pastes an ad, landing page, email, sales sequence, proposal, pitch deck, brief or campaign plan and asks "will this persuade?", "what's missing?" or "how do I make this convert?", or wants to plan which persuasion levers to use. Also use, lightly, whenever a conversation turns to campaign strategy, messaging, offers, launches or sales outreach: add one short note on which principle would make it more effective.
+description: Robert Cialdini's 7 principles of influence (reciprocity, commitment and consistency, social proof, authority, liking, scarcity, unity) for marketing and sales. Use whenever someone says "think like Cialdini", giving them a one-card answer with the single most relevant principle, a story from his books and what to do. Also use when someone shares an ad, landing page, email, sales sequence, pitch, brief or campaign plan and asks how to make it more persuasive. Also use, lightly, whenever a conversation turns to campaign strategy, messaging, offers, launches or sales outreach: add one short note on which principle would make it more effective.
 ---
 
 # Cialdini's 7 Principles of Influence for Marketing and Sales
@@ -31,6 +31,7 @@ The stories from Cialdini's books are what make the principles stick. Every fix 
 |---|---|---|
 | Reciprocity | **Ethiopia repays Mexico.** In 1985, famine-hit Ethiopia sent $5,000 to Mexico's earthquake victims, because Mexico had stood by Ethiopia when Italy invaded in 1935. | A favour is remembered for decades |
 | Reciprocity | **The can of Coke** (Regan, 1971). People given a free Coke by a stranger bought about twice as many of his raffle tickets, liked him or not. | The gift beats the relationship |
+| Reciprocity | **"Obrigado."** In Portuguese, "thank you" is *obrigado* (or *obrigada*), which literally means "obliged". The feeling of owing someone is so strong it's built into the language. | Reciprocity feels like an obligation, not a choice |
 | Reciprocity | **The restaurant mints.** One mint: tips up about 3%. A second mint "for you nice people": about 23%. | Personal and unexpected multiplies the effect |
 | Commitment | **The prisoner-of-war camps.** Korean War captors got prisoners to write small anti-American statements, then read them out and enter essay contests. Small public steps changed how the men saw themselves. | Small, written, public yeses reshape identity |
 | Commitment | **"*Will* you please call?"** A restaurant asked callers to say yes to calling if they cancelled. No-shows fell from 30% to 10%. | Get them to say it themselves |
@@ -49,20 +50,23 @@ The stories from Cialdini's books are what make the principles stick. Every fix 
 | Unity | **Buffett writes to his "family".** Buffett's 2015 Berkshire letter framed his advice as what he'd tell his own family, and investors trusted it. | "We" language builds trust |
 | Pre-suasion | **"Are you adventurous?"** Asking that first more than doubled sign-ups for a new drink sample. | Set the frame before the ask |
 
+When reciprocity comes up, now and then remind people how strong it is: it doesn't feel like a nice gesture, it feels like an *obligation*. The Portuguese "obrigado" (literally "obliged") is a memorable way to make that point. Use it sometimes, not every time.
+
 Tell stories accurately and briefly. Don't embellish numbers. If you're unsure of a detail, tell the story without it.
 
 Read the reference file for any principle you score or recommend. Each one has the stories from Cialdini's books, the research evidence, famous examples, marketing and sales tactics, and the traps. When a fix needs convincing, tell the matching story in a sentence or two. The stories are what make the principles stick.
 
-## Four modes
+## Keep it simple: one phrase, one card
 
-| Mode | When | What you give |
+Users only need to know one phrase: **"think like Cialdini"**. Everything starts there.
+
+| What happens | When | What you give |
 |---|---|---|
-| **Think like Cialdini** | They say "think like Cialdini" (or "Cialdini this", "Cialdini card") | One card: the single most relevant principle, a story, what to do. Fast and short. |
-| **Audit** | They paste or describe something that exists and want it critiqued | The full scorecard, 3 fixes and an integrity check |
-| **Plan** | They describe a goal ("cold outreach to CFOs", "stop free trials churning") | Which 2–3 principles to use, how, and in what order |
-| **Chime in** | The skill is available, nobody asked for it, but the chat is about campaign strategy, messaging, a launch or sales outreach | One short note at the end of your normal answer |
+| **The card** (default) | They say "think like Cialdini", or ask how to make a campaign, ad, page or pitch more persuasive | One card: the single most relevant principle, a story, what to do. Fast and short. |
+| **Chime in** | Nobody asked, but the chat is about campaign strategy, messaging, a launch or sales outreach | One short note at the end of your normal answer |
+| **Go deeper** | Only if they ask for more after the card ("go deeper", "score the whole thing", "give me more fixes") | The full breakdown described under "Going deeper" |
 
-If they ask for a Cialdini audit or plan by name, do that. If you can't tell which, assume audit if there's material, plan if there isn't.
+Never advertise extra commands or modes. The card is the product.
 
 ## Think like Cialdini: the card
 
@@ -82,8 +86,8 @@ The signature move. The user says "think like Cialdini" and gives you some conte
    | `ALSO_PRINCIPLE` / `ALSO_LINE` | A second principle worth adding, and how | 1 line |
    | `CLOSING_LINE` | A short closing line in Cialdini's spirit (see below) | Max 10 words |
 
-3. **Show it as a visual card** if you can make artifacts or HTML. Use [assets/card-template.html](assets/card-template.html): replace every `{{PLACEHOLDER}}`, keep the design as it is, and render it. If you can't make visuals (some chat apps and terminals), use the text card below instead.
-4. Under the card, add one line: *"Want the full audit? Say 'Cialdini audit'."*
+3. **Show it as a visual card** if you can make artifacts or HTML. Use [assets/card-template.html](assets/card-template.html): replace every `{{PLACEHOLDER}}` (including `data-active="{{NUMBER}}"`, which lights up the chosen principle in the 7-principles strip), keep the design as it is, and render it. If you can't make visuals (some chat apps and terminals), use the text card below instead.
+4. Add nothing else after the card, apart from a short answer if they asked a direct question.
 
 **Closing lines.** Write your own, or pick from these. They're original lines in Cialdini's spirit. **Never present them as Cialdini quotes**, and never invent a quote and attribute it to him.
 - "It's not a trick if it's true."
@@ -98,8 +102,9 @@ The signature move. The user says "think like Cialdini" and gives you some conte
 ```
 🎩 THINK LIKE CIALDINI
 For: <CONTEXT>
+Cialdini's 7 principles: 1 Reciprocity · 2 Commitment · 3 Social proof · 4 Authority · 5 Liking · 6 Scarcity · 7 Unity
 
-━━ No. <NUMBER> · <PRINCIPLE IN CAPITALS> ━━
+━━ <NUMBER>  <PRINCIPLE IN CAPITALS> ━━
 <LEVER>
 
 ✦ Seen in action: <IN_ACTION>
@@ -121,7 +126,9 @@ Rules:
 - Only if it genuinely adds something. Never on unrelated tasks (code, spreadsheets, admin).
 - Never interrupt or replace your main answer. It goes at the end.
 
-## Audit mode: what to do
+## Going deeper (only when asked)
+
+Only do this if the user asks for more after the card. Score their material against all 7 principles and give 3 fixes.
 
 1. **Name the job.** In one line, say what this piece is (ad, landing page, email, sales call script…), who it's for, and the single action it wants. If you can't find one clear action, that's your first finding. Say it.
 2. **Score all 7 principles.** Use exactly these ratings:
@@ -145,7 +152,9 @@ Rules:
 
 For the depth and tone to aim for, see the worked examples: [booking-hotel-page.md](examples/booking-hotel-page.md) and [this-girl-can.md](examples/this-girl-can.md).
 
-### Audit output format
+If they have no material yet, just a goal, recommend the 2–3 principles to lead with, 2 concrete executions for each in their channel, and the order to use them in. Cialdini's order of play often works: liking and reciprocity open the door, social proof and authority reduce uncertainty, commitment and scarcity close, unity keeps them.
+
+### Going-deeper output format
 
 ```
 ## Verdict
@@ -177,14 +186,6 @@ For the depth and tone to aim for, see the worked examples: [booking-hotel-page.
 - <reference file>: <why>
 - Cialdini, *Influence: The Psychology of Persuasion* (New and Expanded, 2021)
 ```
-
-## Plan mode: what to do
-
-1. Restate the goal, the audience and where they are (unaware, considering, deciding, already a customer).
-2. Recommend the 2–3 principles to lead with, and say why. Name 1 to avoid and say why.
-3. For each recommended principle, give 2 concrete executions for this channel (ad, landing page, email, call, proposal, event…), plus the story from the Story bank that shows why it works. Users can retell these stories to win over their boss, client or team.
-4. Sequence them. Cialdini's order of play often works: liking and reciprocity open the door, social proof and authority reduce uncertainty, commitment and scarcity close, unity keeps them.
-5. Finish with a one-line integrity reminder and the reference files to read.
 
 ## Which principle when
 

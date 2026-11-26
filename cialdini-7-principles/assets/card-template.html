@@ -46,6 +46,21 @@
   .top { padding: 26px 30px 18px; position: relative; }
   .eyebrow { display: flex; align-items: center; gap: 10px; color: var(--yellow); font-size: 26px; }
   .eyebrow svg { width: 30px; height: 30px; flex: none; }
+  /* the 7 principles strip: the chosen one lights up (set data-active on .card) */
+  .seven { margin-top: 14px; }
+  .seven-label { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--cream); opacity: .9; }
+  .chips { display: flex; gap: 4px; margin-top: 6px; flex-wrap: nowrap; justify-content: space-between; }
+  .chip { font-family: "Bebas Neue", Impact, sans-serif; letter-spacing: .04em; font-size: 14px; line-height: 1; white-space: nowrap;
+          padding: 5px 7px 4px; border-radius: 999px; border: 1.5px solid rgba(253,185,19,.55); color: var(--cream); }
+  .chip b { font-weight: 400; color: var(--yellow); margin-right: 2px; }
+  .card[data-active="1"] .chip:nth-child(1), .card[data-active="2"] .chip:nth-child(2),
+  .card[data-active="3"] .chip:nth-child(3), .card[data-active="4"] .chip:nth-child(4),
+  .card[data-active="5"] .chip:nth-child(5), .card[data-active="6"] .chip:nth-child(6),
+  .card[data-active="7"] .chip:nth-child(7) { background: var(--yellow); border-color: var(--yellow); color: var(--blue-deep); }
+  .card[data-active="1"] .chip:nth-child(1) b, .card[data-active="2"] .chip:nth-child(2) b,
+  .card[data-active="3"] .chip:nth-child(3) b, .card[data-active="4"] .chip:nth-child(4) b,
+  .card[data-active="5"] .chip:nth-child(5) b, .card[data-active="6"] .chip:nth-child(6) b,
+  .card[data-active="7"] .chip:nth-child(7) b { color: var(--red); }
   .brief { margin-top: 8px; font-size: 17px; line-height: 1.35; color: var(--cream); }
   .brief b { font-weight: 600; color: var(--white); }
 
@@ -57,7 +72,8 @@
     padding: 18px 40px 16px;
   }
   .stripe-inner { transform: skewY(5deg); }
-  .principle { font-size: 76px; line-height: .92; color: var(--white); }
+  .principle { font-size: 76px; line-height: .92; color: var(--white); display: flex; align-items: baseline; gap: 16px; }
+  .principle .num { color: var(--yellow); }
   .lever { font-size: 25px; color: var(--yellow); margin-top: 6px; }
   .badge {
     position: absolute; top: 8px; right: 26px; z-index: 2;
@@ -80,10 +96,11 @@
   .footer { padding: 6px 30px 26px; text-align: center; }
   .closing { font-style: italic; font-size: 21px; line-height: 1.35; color: var(--white); }
   .credit { margin-top: 8px; font-size: 13.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--yellow); }
+  @media (max-width: 560px) { .chips { flex-wrap: wrap; justify-content: flex-start; } .principle { font-size: 60px; } }
 </style>
 </head>
 <body>
-<article class="card">
+<article class="card" data-active="{{NUMBER}}">
   <span class="spark" style="top:22px;right:34px">✦</span>
   <span class="spark" style="top:58px;right:74px;font-size:9px">✦</span>
   <span class="spark" style="bottom:70px;left:22px;font-size:10px">✦</span>
@@ -102,12 +119,33 @@
       Think like Cialdini
     </div>
     <p class="brief"><b>For:</b> {{CONTEXT}}</p>
+    <div class="seven">
+      <p class="seven-label">Cialdini’s 7 principles of influence · from his book <i>Influence</i></p>
+      <div class="chips">
+        <span class="chip"><b>1</b>Reciprocity</span>
+        <span class="chip"><b>2</b>Commitment</span>
+        <span class="chip"><b>3</b>Social proof</span>
+        <span class="chip"><b>4</b>Authority</span>
+        <span class="chip"><b>5</b>Liking</span>
+        <span class="chip"><b>6</b>Scarcity</span>
+        <span class="chip"><b>7</b>Unity</span>
+      </div>
+    </div>
   </header>
 
   <section class="band">
-    <div class="badge display"><small>No.</small><strong>{{NUMBER}}</strong></div>
+    <div class="badge" aria-hidden="true">
+      <svg viewBox="0 0 32 32" width="46" height="46">
+        <rect x="9" y="6" width="14" height="15" rx="1.5" fill="#FFFFFF"/>
+        <rect x="9" y="16" width="14" height="3" fill="#FDB913"/>
+        <rect x="4" y="21" width="24" height="3.5" rx="1.75" fill="#FFFFFF"/>
+        <line x1="22" y1="30" x2="30" y2="22" stroke="#2A2D6E" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="28.6" y1="23.4" x2="30" y2="22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+        <text x="27" y="8" font-size="7" fill="#FDB913">✦</text>
+      </svg>
+    </div>
     <div class="stripe"><div class="stripe-inner">
-      <h1 class="principle display">{{PRINCIPLE}}</h1>
+      <h1 class="principle display"><span class="num">{{NUMBER}}</span><span>{{PRINCIPLE}}</span></h1>
       <p class="lever display">{{LEVER}}</p>
     </div></div>
   </section>

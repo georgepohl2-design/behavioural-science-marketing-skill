@@ -21,23 +21,55 @@ Free to copy, use and share.
 
 **ChatGPT or Gemini:** create a Custom GPT (or a Gem). Paste the contents of `SKILL.md` into its instructions, and upload the files in `references/`, `examples/` and `assets/` as knowledge.
 
-### 2. Say the magic words
+### 2. Say the magic words: "Think like Cialdini"
 
-| Say this | You get |
-|---|---|
-| **"Think like Cialdini"** + your campaign, brief or problem | **A Cialdini card**: the single most relevant principle, a story from the book showing it in action, what to do about it, a second principle up the sleeve, and a closing line |
-| **"Cialdini audit"** + paste your ad, page, email or pitch | **The full audit**: all 7 principles scored, 3 fixes with before-and-after rewrites, a story for each fix, and an integrity check |
-| **"Cialdini plan"** + your goal ("cold outreach to CFOs") | **A plan**: which 2–3 principles to lead with, how to use them in your channel, and in what order |
+That's all you need to say. Follow it with your campaign, brief, ad or problem:
+
+> **"Think like Cialdini.** We're launching a project-management app to small creative agencies."
+
+You get a card with:
+- **The principle**: the one of the 7 that will make the biggest difference to *your* campaign, lit up among all seven
+- **Seen in action**: a quick story from Cialdini's books that shows it working
+- **Consider**: why this principle fits your case, and exactly what to do
+- **Also up the sleeve**: a second principle worth adding
+- **A closing line** in Cialdini's spirit
+
+<img src="docs/example-card.png" alt="Example Think like Cialdini card: Social proof, for a project-management app launching to small creative agencies" width="420">
+
+In Claude.ai and the desktop app, the card is drawn in the colours of the book's cover, with a touch of magic. Elsewhere you get the same card as text.
 
 ### 3. Let it chime in
 
 Once the skill is added, you don't always have to ask. When your chat turns to campaign strategy, messaging, a launch or sales outreach, Claude adds a short **🎩 Cialdini's corner** note: the principle that would make it more effective, and why. Once per chat, never pushy.
 
-## The card
+## What's inside
 
-When Claude can make visuals (Claude.ai and the desktop app), the card is drawn in the colours of the book's cover, with a touch of magic. Elsewhere you get the same card as text.
+```
+cialdini-7-principles/
+├── SKILL.md              ← how the skill thinks: the card, the chime-in
+│                            and the story bank
+├── assets/
+│   ├── card-template.html   ← the "Think like Cialdini" card design
+│   ├── cialdini-7-principles.svg
+│   └── influence-book-cover.jpg
+├── references/           ← one file per principle: stories, evidence, famous
+│   ├── reciprocity.md       examples, marketing and sales tactics, traps
+│   ├── commitment.md
+│   ├── social-proof.md
+│   ├── authority.md
+│   ├── liking.md
+│   ├── scarcity.md
+│   ├── unity.md
+│   └── pre-suasion.md    ← bonus: the moment before the ask
+└── examples/             ← two worked deep-dives on famous public work
+```
 
-<img src="docs/example-card.png" alt="Example Think like Cialdini card: Social proof, for a project-management app launching to small creative agencies" width="420">
+Every principle comes with:
+- **the stories from Cialdini's books** that prove it: Ethiopia repaying Mexico 50 years later, the Korean War prison camps, New Coke, the world's greatest car salesman's "I like you" cards…
+- **the research evidence**: the hotel towel study, the restaurant mints, the cookie jar…
+- **a famous campaign**, good or cautionary
+- separate tactics for **marketing** and for **sales**
+- **the traps**: fake scarcity, fake reviews and borrowed authority are things regulators fine brands for
 
 ## All credit to the legend: Robert Cialdini
 
@@ -55,51 +87,15 @@ This skill is built on Cialdini's work. The stories and research it tells come f
 
 ![Cialdini's 7 principles of influence: reciprocity, commitment, social proof, authority, liking, scarcity, unity](cialdini-7-principles/assets/cialdini-7-principles.svg)
 
-## What the full audit looks like
-
-> **Verdict:** A near-perfect unity and social proof campaign… The weak spot is the step after the film: the ask is soft, so a lot of the goodwill has nowhere to go.
->
-> **Fix 1: Give a tiny first step at the end** (Commitment)
-> Before: "This Girl Can" + website
-> After: "This Girl Can. Find a beginners' session near you this week, no kit needed."
-> 📖 **The story:** Homeowners who first agreed to a tiny "be a safe driver" sign were far more likely to accept a huge lawn billboard later: about 76% against 17% asked cold.
-
-Full worked examples:
-- [Sport England, "This Girl Can"](cialdini-7-principles/examples/this-girl-can.md): a brand campaign
-- [An online hotel booking page](cialdini-7-principles/examples/booking-hotel-page.md): conversion design, and where scarcity becomes a legal risk
-
-## What's inside
-
-```
-cialdini-7-principles/
-├── SKILL.md              ← how the skill thinks: the card, audit, plan and chime-in,
-│                            plus the story bank
-├── assets/
-│   ├── card-template.html   ← the "Think like Cialdini" card design
-│   ├── cialdini-7-principles.svg
-│   └── influence-book-cover.jpg
-├── references/           ← one file per principle: stories, evidence, famous
-│   ├── reciprocity.md       examples, marketing and sales tactics, traps
-│   ├── commitment.md
-│   ├── social-proof.md
-│   ├── authority.md
-│   ├── liking.md
-│   ├── scarcity.md
-│   ├── unity.md
-│   └── pre-suasion.md    ← bonus: the moment before the ask
-└── examples/             ← two worked audits of famous public work
-```
-
-Every principle comes with:
-- **the stories from Cialdini's books** that prove it: Ethiopia repaying Mexico 50 years later, the Korean War prison camps, New Coke, the world's greatest car salesman's "I like you" cards…
-- **the research evidence**: the hotel towel study, the restaurant mints, the cookie jar…
-- **a famous campaign**, good or cautionary
-- separate tactics for **marketing** and for **sales**
-- **an integrity check**: fake scarcity, fake reviews and borrowed authority are things regulators fine brands for
-
 ## Why I built it
 
-Most "persuasion checklists" stop at naming the principles. Real work needs judgement: which lever fits this audience, how to phrase it, and where persuasion tips into manipulation. This skill turns Cialdini's work into something any marketer or salesperson can use in seconds, and the stories give them a way to win over their boss, client or team.
+I've spent years reading books on psychology and behavioural science, and how they apply to marketing and growth. It gets complicated fast. People make decisions through their memories, their emotions, their reasoning and a long list of cognitive biases. One popular map of biases lists nearly 200 of them.
+
+Behavioural science also has a problem that's often called the replication crisis: plenty of famous findings haven't held up when other researchers tried to repeat them.
+
+Cialdini's 7 principles stand out. They come from decades of research and real-world fieldwork, they've been studied and applied again and again, and they're easy to remember and use. Of everything I've read, this book has the most solid set of principles, and they're the ones I stand by.
+
+They're the best starting anchor I've found: a strong foundation to build everything else on.
 
 ## Credits and copyright
 
@@ -107,8 +103,4 @@ The 7 principles are **Robert Cialdini's**: *Influence: The Psychology of Persua
 
 All writing, the card design and the 7-principles diagram are original. No text is copied from the books, courses or papers. The card's closing lines are written "in the spirit of" Cialdini. They're not his quotes. The cover of *Influence* (New and Expanded, Harper Business, 2021) is shown only to identify and credit the book. It remains the publisher's copyright. This project isn't affiliated with or endorsed by Robert Cialdini or Influence at Work.
 
-Free to copy and use under the [MIT licence](LICENSE).
-
----
-
-Built by **George Pohl**, growth marketer (acquisition, B2B, ABM, HubSpot). Part of a portfolio of simple AI tools for marketers, each with one job.
+© 2026 George Pohl. Free to copy, use and share under the [MIT licence](LICENSE).
