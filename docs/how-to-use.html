@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to use: Think like Cialdini</title>
+<!-- Source for docs/how-to-use.png (the README image). -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root { --blue:#383C8E; --blue-deep:#2A2D6E; --yellow:#FDB913; --red:#EE3B2B; --cream:#FFF6DC; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--blue); color:#fff; font-family:"EB Garamond", Georgia, serif; width:1200px; }
+  .display { font-family:"Bebas Neue", Impact, sans-serif; letter-spacing:.04em; font-weight:400; }
+  .wrap { position:relative; padding:40px 48px 34px; overflow:hidden; }
+  .band { position:absolute; left:-40px; right:-40px; top:178px; height:290px; background:var(--yellow); transform:skewY(-4deg); }
+  .spark { position:absolute; color:var(--yellow); font-size:16px; }
+  header { position:relative; display:flex; align-items:center; gap:14px; }
+  header svg { width:46px; height:46px; }
+  h1 { font-size:58px; line-height:1; }
+  h1 span { color:var(--yellow); }
+  .sub { position:relative; margin:6px 0 30px 60px; font-size:21px; color:var(--cream); }
+  .steps { position:relative; display:grid; grid-template-columns:1fr 1fr 1.05fr; gap:22px; align-items:stretch; }
+  .step { background:var(--blue-deep); border-radius:18px; padding:22px 22px 24px; box-shadow:0 12px 28px rgba(0,0,0,.25); display:flex; flex-direction:column; }
+  .num { width:58px; height:58px; border-radius:50%; background:var(--red); display:flex; align-items:center; justify-content:center; font-size:36px; margin-bottom:12px; }
+  .step h2 { font-size:34px; color:var(--yellow); line-height:1; margin-bottom:10px; }
+  .step p { font-size:20px; line-height:1.38; }
+  .step code { font-family:ui-monospace, Menlo, monospace; font-size:15px; background:rgba(255,255,255,.12); padding:2px 6px; border-radius:5px; }
+  .bubble { margin-top:auto; background:#fff; color:#1D1D2B; border-radius:16px 16px 4px 16px; padding:14px 16px; font-size:19px; line-height:1.35; position:relative; }
+  .bubble b { color:var(--blue); font-family:"Bebas Neue", Impact, sans-serif; font-weight:400; letter-spacing:.04em; font-size:24px; }
+  .path { margin-top:auto; display:flex; flex-wrap:wrap; gap:6px; align-items:center; font-size:17px; }
+  .chip { background:var(--yellow); color:var(--blue-deep); border-radius:999px; padding:4px 12px; font-family:"Bebas Neue", Impact, sans-serif; letter-spacing:.05em; font-size:20px; }
+  .card-thumb { max-height:300px; margin-top:4px; border-radius:12px; overflow:hidden; box-shadow:0 8px 18px rgba(0,0,0,.35); transform:rotate(1.5deg); }
+  .card-thumb img { display:block; width:100%; }
+  footer { position:relative; margin-top:26px; display:flex; gap:22px; }
+  footer div { flex:1; border-top:2px solid rgba(253,185,19,.6); padding-top:12px; font-size:19px; line-height:1.4; color:var(--cream); }
+  footer b { color:var(--yellow); font-family:"Bebas Neue", Impact, sans-serif; font-weight:400; letter-spacing:.05em; font-size:23px; }
+  .credit { position:relative; margin-top:18px; text-align:center; font-size:14px; letter-spacing:.12em; text-transform:uppercase; color:var(--yellow); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="band"></div>
+  <span class="spark" style="top:30px;right:60px">✦</span>
+  <span class="spark" style="top:70px;right:110px;font-size:10px">✦</span>
+  <span class="spark" style="bottom:40px;left:30px;font-size:11px">✦</span>
+
+  <header>
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <rect x="9" y="6" width="14" height="15" rx="1.5" fill="#FDB913"/>
+      <rect x="9" y="16" width="14" height="3" fill="#EE3B2B"/>
+      <rect x="4" y="21" width="24" height="3.5" rx="1.75" fill="#FDB913"/>
+      <line x1="22" y1="30" x2="30" y2="22" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+      <line x1="28.6" y1="23.4" x2="30" y2="22" stroke="#EE3B2B" stroke-width="2.2" stroke-linecap="round"/>
+    </svg>
+    <h1 class="display">How to <span>think like Cialdini</span></h1>
+  </header>
+  <p class="sub">A free AI skill built on Robert Cialdini’s 7 principles of influence. Three steps, one card.</p>
+
+  <div class="steps">
+    <div class="step">
+      <div class="num display">1</div>
+      <h2 class="display">Add the skill</h2>
+      <p>Download the skill folder from this repo, zip it and add it to Claude. Free to copy and use.</p>
+      <div class="path" style="margin-top:18px">
+        <span class="chip">Settings</span>→<span class="chip">Skills</span>→<span class="chip">Upload</span>
+      </div>
+    </div>
+    <div class="step">
+      <div class="num display">2</div>
+      <h2 class="display">Say the magic words</h2>
+      <p>Start a chat. Say the trigger, then tell it about your campaign, brief or ad.</p>
+      <div class="bubble" style="margin-top:18px"><b>“Think like Cialdini.”</b> We’re launching a project-management app to small creative agencies.</div>
+    </div>
+    <div class="step">
+      <div class="num display">3</div>
+      <h2 class="display">Get your card</h2>
+      <div class="card-thumb"><img src="example-card.png" alt="Example Think like Cialdini card"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div><b>Want more?</b> Say “Cialdini audit” and paste your ad or page for a full scorecard, 3 fixes and a story from the book for each.</div>
+    <div><b>Bonus:</b> once it’s added, Claude chimes in with a quick Cialdini tip whenever you talk campaign strategy.</div>
+  </footer>
+  <p class="credit">All credit to Robert B. Cialdini · <i>Influence: The Psychology of Persuasion</i></p>
+</div>
+</body>
+</html>

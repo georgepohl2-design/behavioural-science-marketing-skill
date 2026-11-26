@@ -1,6 +1,6 @@
 ---
 name: cialdini-7-principles
-description: Audit and improve any marketing or sales material using Robert Cialdini's 7 principles of influence (reciprocity, commitment and consistency, social proof, authority, liking, scarcity, unity). Use when someone pastes an ad, landing page, email, sales sequence, proposal, pitch deck, brief or campaign plan and asks "will this persuade?", "what's missing?", "how do I make this convert?", or wants to plan which persuasion levers to use. Gives a principle-by-principle verdict, 3 specific fixes with rewritten lines, and flags anything fake or manipulative.
+description: Robert Cialdini's 7 principles of influence (reciprocity, commitment and consistency, social proof, authority, liking, scarcity, unity) for marketing and sales. Use whenever someone says "think like Cialdini" (or "Cialdini this", "Cialdini card"), giving them a one-card answer with the single most relevant principle. Use for "Cialdini audit" and "Cialdini plan" too. Also use when someone pastes an ad, landing page, email, sales sequence, proposal, pitch deck, brief or campaign plan and asks "will this persuade?", "what's missing?" or "how do I make this convert?", or wants to plan which persuasion levers to use. Also use, lightly, whenever a conversation turns to campaign strategy, messaging, offers, launches or sales outreach: add one short note on which principle would make it more effective.
 ---
 
 # Cialdini's 7 Principles of Influence for Marketing and Sales
@@ -53,12 +53,73 @@ Tell stories accurately and briefly. Don't embellish numbers. If you're unsure o
 
 Read the reference file for any principle you score or recommend. Each one has the stories from Cialdini's books, the research evidence, famous examples, marketing and sales tactics, and the traps. When a fix needs convincing, tell the matching story in a sentence or two. The stories are what make the principles stick.
 
-## Two modes
+## Four modes
 
-**Audit mode** (default): they've pasted or described something that exists.
-**Plan mode**: they describe a goal ("launch a webinar", "cold outreach to CFOs", "stop free trials churning") and want to know which principles to use and how.
+| Mode | When | What you give |
+|---|---|---|
+| **Think like Cialdini** | They say "think like Cialdini" (or "Cialdini this", "Cialdini card") | One card: the single most relevant principle, a story, what to do. Fast and short. |
+| **Audit** | They paste or describe something that exists and want it critiqued | The full scorecard, 3 fixes and an integrity check |
+| **Plan** | They describe a goal ("cold outreach to CFOs", "stop free trials churning") | Which 2–3 principles to use, how, and in what order |
+| **Chime in** | The skill is available, nobody asked for it, but the chat is about campaign strategy, messaging, a launch or sales outreach | One short note at the end of your normal answer |
 
-If you can't tell which, assume audit if there's material, plan if there isn't.
+If they ask for a Cialdini audit or plan by name, do that. If you can't tell which, assume audit if there's material, plan if there isn't.
+
+## Think like Cialdini: the card
+
+The signature move. The user says "think like Cialdini" and gives you some context: a campaign, a brief, a problem, a pasted ad. If they gave no context, ask one question ("What are you trying to get people to do, and who are they?") and stop.
+
+1. **Choose ONE principle**, the one that would make the biggest difference here. Use "Which principle when" below and the matching reference file. Don't hedge between several.
+2. **Fill the card**, keeping every field short:
+
+   | Field | What goes in it | Length |
+   |---|---|---|
+   | `CONTEXT` | Their situation, in their words | Max 12 words |
+   | `NUMBER` | The principle's number, 1–7, from the table above | 1 digit |
+   | `PRINCIPLE` | The principle's name | 1–2 words |
+   | `LEVER` | The lever, as an instruction | Max 8 words |
+   | `IN_ACTION` | The principle seen in action: a story from the Story bank, credited | 2–3 sentences |
+   | `CONSIDER` | Why this principle fits *their* case, and exactly what to do | 1–2 sentences, specific to them |
+   | `ALSO_PRINCIPLE` / `ALSO_LINE` | A second principle worth adding, and how | 1 line |
+   | `CLOSING_LINE` | A short closing line in Cialdini's spirit (see below) | Max 10 words |
+
+3. **Show it as a visual card** if you can make artifacts or HTML. Use [assets/card-template.html](assets/card-template.html): replace every `{{PLACEHOLDER}}`, keep the design as it is, and render it. If you can't make visuals (some chat apps and terminals), use the text card below instead.
+4. Under the card, add one line: *"Want the full audit? Say 'Cialdini audit'."*
+
+**Closing lines.** Write your own, or pick from these. They're original lines in Cialdini's spirit. **Never present them as Cialdini quotes**, and never invent a quote and attribute it to him.
+- "It's not a trick if it's true."
+- "Find what's true. Then put it first."
+- "People rarely decide alone. Show them who's with them."
+- "Give first. The rest follows."
+- "The best persuasion doesn't feel like persuasion."
+- "Make the yes easy, and the reason real."
+
+**Text card** (when you can't make visuals):
+
+```
+🎩 THINK LIKE CIALDINI
+For: <CONTEXT>
+
+━━ No. <NUMBER> · <PRINCIPLE IN CAPITALS> ━━
+<LEVER>
+
+✦ Seen in action: <IN_ACTION>
+✦ Consider: <CONSIDER>
+✦ Also up the sleeve: <ALSO_PRINCIPLE>: <ALSO_LINE>
+
+"<CLOSING_LINE>"
+In the spirit of Robert B. Cialdini · Influence
+```
+
+## Chime in: when nobody asked
+
+When this skill is available and the conversation is about campaign strategy, messaging, an offer, a launch or sales outreach, finish your normal answer with one short note:
+
+> 🎩 **Cialdini's corner:** <the one principle that would make this more effective, and why, in 1–2 sentences>. *Say "think like Cialdini" for the full card.*
+
+Rules:
+- Once per conversation, unless they ask for more.
+- Only if it genuinely adds something. Never on unrelated tasks (code, spreadsheets, admin).
+- Never interrupt or replace your main answer. It goes at the end.
 
 ## Audit mode: what to do
 
